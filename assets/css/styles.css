@@ -462,59 +462,28 @@ section {
 # About
 --------------------------------------------------------------*/
 #about {
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 
-section #hello {
-    padding-top: 55px;
-    left: 10%;
-    bottom: 50%;
-    font-family: 'Josefin Sans';
-    font-size: 80px;
+#aboutimg {
+    
+margin-top: -50px;
+
+    zoom: .8;
 }
 
-section #cutout {
-    margin-top: -100px;
-}
-
-section #youtubeButton {
-    background-color: red;
-    font-family: 'Josefin Sans';
-    font-weight: 500;
-    font-size: 30px;
-    color: whitesmoke;
-    border-radius: 10%;
-    left: 50%;
-    position: absolute;
-
-    top: 50%;
-}
 
 section #aboutpara p {
 
     font-family: 'Josefin Sans', sans-serif;
-    margin: 10px;
-    color: whitesmoke;
+    
+    color: black;
     font-size: 24px;
-    margin-bottom: 20px;
-    padding-top: 50px;
+    
+   
     text-align: justify;
     letter-spacing: .08em;
-}
-
-section #contactbtn {
-    background-color: #8864008e;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-    font-size: 25px;
-    color: whitesmoke;
-    border-radius: 10%;
-    left: 50%;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    position: absolute;
-    bottom: 0;
 }
 
 @media (max-width: 992px) {
@@ -524,8 +493,8 @@ section #contactbtn {
 
     section #aboutpara p {
         font-size: 16px;
-        padding-bottom: 30px;
-        margin-top: -40px;
+        margin-bottom: -50px;
+       
     }
 
     section #youtubeButton {
@@ -533,7 +502,7 @@ section #contactbtn {
         margin-bottom: 20px;
     }
 
-    section #cutout {
+    section #aboutimg {
         margin-top: -80px;
     }
 
