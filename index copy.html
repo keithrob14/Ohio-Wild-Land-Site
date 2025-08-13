@@ -46,56 +46,6 @@
     <!--ads-->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5021650701472204"
      crossorigin="anonymous"></script>
-
-    <style>
-        body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        }
-
-        .container {
-        display: flex;
-        flex-wrap: wrap;
-        min-height: 20vh;
-        }
-
-        .video-column {
-        flex: 1 1 50%;
-        padding: 20px;
-        box-sizing: border-box;
-        }
-
-        .video-column iframe {
-        width: 100%;
-        height: 315px;
-        border: none;
-        }
-
-        .text-column {
-        flex: 1 1 50%;
-        padding: 20px;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        }
-
-        .text-column p {
-        font-size: 1.2rem;
-        line-height: 1.5;
-        }
-
-        /* Make it stack vertically on smaller screens */
-        @media (max-width: 768px) {
-        .container {
-            flex-direction: column;
-        }
-        .video-column iframe {
-            height: 250px;
-        }
-        }
-    </style>
-
 </head>
 
 <body>
@@ -124,33 +74,53 @@
         </div>
     </header><!-- End #header -->
 
+
+    <!-- ======= Hero Section ======= -->
+
+    <section id="hero">
+        <div class="hero-container">
+          <img src="assets/img/OWLS_banner.jpg" style="zoom: 1.1;">
+          <div class="overlay-text" style="text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.549)";>
+            Native Landscapes
+          </div>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        </div>
+      </section>
+
     <main>
-      <!-- ======= Landing Page Section ======= -->
-        <section style="padding-top: 150px;">
-            <div>
-                <div class="container">
-                    <div class="video-column">
-                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" 
-                                title="Welcome Video" allowfullscreen></iframe>
+        <!-- ======= About Section ======= -->
+        <section id="about">
+
+
+            <section id="about">
+                <div class="row">
+                    <!-- Image Column -->
+                    <div class="col-md-6" id="aboutimg">
+                        <img src="assets/img/me_burn.jpg" class="img-fluid" alt="Keith Robinson">
                     </div>
-                <div class="text-column">
-                    <p>
-                        Welcome to <b>Ohio Wild Land Services</b>! My goal with OWLS is to help landowners restore and maintain native ecosystems to maximize the ecological potential regardless of the size of the property. Functional native ecosystems are increasingly rare on the modern landscape and hundreds of species of plants and animals depend on proper management in order to thrive and reproduce. Ohio consists of 95% private land, putting much of the responsibility of proper conservation in the hands of private landowners. My mission is to help these landowners throughout the state put together comprehensive plans to restore as much land as possible and bring wildlife habitat back to our landscape. 
-                    </p>
+        
+                    <!-- Text Column -->
+                    <div class="col-md-6" id="aboutpara">
+                        <p>
+                            My name is Keith Robinson and I'm a habitat manager based in Southeastern Ohio. My goal with Ohio Wild Land Services is to conserve and restore natural ecosystems by promoting natural regeneration of native plants on the landscape. By constantly managing for native diversity in our ecosystems we can provide the maximum productivity to the flora and fauna in our landscape. Whether it's a residential landscaping restoration, a total lawn conversion, or a full comprehensive plan for a property restoration, I'm happy to put all my efforts into helping you maximize the potential of your property!
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section> 
+            </section>
+
+        </section>
+      
 
 
 
 
 
-        <section id="services" class="services" style="margin: 20px;">
-            <div data-aos="fade-up">
+        <section id="services" class="services">
+            <div class="container" data-aos="fade-up">
       
               <div class="section-header">
                 <h2 style="font-size: 35px;"><u>Services</u></h2>
-                <p style="font-size: 22px;">Here are some of the main services, please make a submission in the <a href="#contact">contact</a> section for any inquiries </p>
+                <p style="font-size: 22px;">Here are some of the main services I offer, please make a submission in the <a href="#contact">contact</a> section for any inquiries </p>
               </div>
       
               <div class="row gy-4">
@@ -158,12 +128,12 @@
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-item">
                       <div class="row">
-                        <div class="col-xl-6">
-                             <img src="assets/img/tims_BA.jpg" alt="Wildlife Habitat" class="img-fluid">
+                        <div class="col-xl-5">
+                          <div class="card-bg" style="background-image: url(assets/img/alex_field.png);"></div>
                         </div>
-                        <div class="col-xl-6 d-flex align-items-center">
+                        <div class="col-xl-7 d-flex align-items-center">
                           <div class="card-body">
-                            <h4 class="card-title"><b>Wildlife Habitat Management</b></h4>
+                            <h4 class="card-title">Wildlife Habitat Management</h4>
                             <p>I work with landowners on any scale to improve wildlife production and native diversity on the landscape. I'm a licensed herbicide applicator for invasive plant control and can work with any land maintenance project from bulldozing land clearings, to shrub/tree plantings. Watch some of our management practices <a href="https://youtu.be/4-9pa_ePpvU">here</a>. </p>
                           </div>
                         </div>
@@ -174,12 +144,12 @@
                   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-item">
                       <div class="row">
-                         <div class="col-xl-6">
-                             <img src="assets/img/BA_landscape.png" alt="Landscaping" class="img-fluid">
+                        <div class="col-xl-5">
+                          <div class="card-bg" style="background-image: url(assets/img/BA_landscape.png);"></div>
                         </div>
-                        <div class="col-xl-6 d-flex align-items-center">
+                        <div class="col-xl-7 d-flex align-items-center">
                           <div class="card-body">
-                            <h4 class="card-title"><b>Residential Native Landscaping</b></h4>
+                            <h4 class="card-title">Residential Native Landscaping</h4>
                             <p>I offer consulting and design/installation for <a href="landscaping.html">native landscaping work</a> and restoration of natural areas for landowners in residential and rural areas. Contact me for questions regarding native landscaping, and landscape restoration projects. </p>
                           </div>
                         </div>
@@ -190,13 +160,13 @@
                   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-item">
                       <div class="row">
-                        <div class="col-xl-6">
-                          <img src="assets/img/lawnConv.jpg" alt="Landscaping" class="img-fluid">
+                        <div class="col-xl-5">
+                          <div class="card-bg" style="background-image: url(assets/img/BA_landscape.png);"></div>
                         </div>
-                        <div class="col-xl-6 d-flex align-items-center">
+                        <div class="col-xl-7 d-flex align-items-center">
                           <div class="card-body">
-                            <h4 class="card-title"><b>Lawn Conversions</b></h4>
-                            <p>I work with landowners to design and implement lawn conversions to improve wildlife value and decrease maintenance time and cost for landowners. No matter the size, converting your lawn is a simple yet effective way of adding ecological value back to your land. </p>
+                            <h4 class="card-title">Lawn Conversions</h4>
+                            <p>...</p>
                           </div>
                         </div>
                       </div>
@@ -206,13 +176,13 @@
                   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-item">
                       <div class="row">
-                        <div class="col-xl-6">
-                          <img src="assets/img/woods.jpg" alt="Landscaping" class="img-fluid">
+                        <div class="col-xl-5">
+                          <div class="card-bg" style="background-image: url(assets/img/BA_landscape.png);"></div>
                         </div>
-                        <div class="col-xl-6 d-flex align-items-center">
+                        <div class="col-xl-7 d-flex align-items-center">
                           <div class="card-body">
-                            <h4 class="card-title"><b>Forest Management</b></h4>
-                            <p>I am a licensed forestry pesticide applicator and can help landowners execute forest management plans including: non-native invasive species management, timber stand improvements, woodland basal reduction, etc. Please contact me to discuss how I can help you move toward your forestry goals as a landowner. </p>
+                            <h4 class="card-title">Forest Management</h4>
+                            <p>...</p>
                           </div>
                         </div>
                       </div>
@@ -221,7 +191,52 @@
 
             </section>
 
-       
+       <!-- <!-- ======= Services Section 
+        <section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Services</h2>
+                    <p>Check out my areas of focus for my services. If you have any questions don't hesitate to <a
+                            href="#contact">contact me</a>.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="icon-box" data-aos="zoom-in">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <h4><a href="">Multimedia Contracting</a></h4>
+                            <p>Set up a media consultation to set up appointments for any in-house multimedia needs
+                                (ad/promo, marketing, educational content: Video, Photo, Audio, Graphics,
+                                Web-Development) <br><br>
+                                <hr> <button><a href="https://www.nativelandscapesohio.com/">Client Website</a></button>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Freelance Media Specialist</a></h4>
+                            <p>Contact me for inquiries regarding sub-contracting for media projects and small scale
+                                freelance projects like photo shoots and short video production.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <h4><a href="">Video Production</a></h4>
+                            <p>Submit an inquiry to discuss openings for content editing and video production
+                                (interviews, ads, etc). </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        End Services Section --> 
 
 
         <!-- Contact Section -->
